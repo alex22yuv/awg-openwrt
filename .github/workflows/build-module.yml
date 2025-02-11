@@ -22,11 +22,6 @@ jobs:
             target: ramips
             subtarget: mt7621
             vermagic: "144de9e5c1a8813b724b14faa054d9f0"
-          - tag: "24.10.0"
-            pkgarch: arm_cortex-a7_neon-vfpv4
-            target: ipq40xx
-            subtarget: mikrotik
-            vermagic: "214f0857c7382dd4cd5df60f4165c78b"            
 
     steps:
       - uses: actions/checkout@v4
