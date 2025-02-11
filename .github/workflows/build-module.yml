@@ -12,17 +12,17 @@ jobs:
     strategy:
       matrix:
         build_env:       
-          - tag: "23.05.5"
+          - tag: "24.10.0"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7622
             vermagic: "4df1170d203681f87395690076ea93d3"
-          - tag: "23.05.5"
+          - tag: "24.10.0"
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7621
             vermagic: "144de9e5c1a8813b724b14faa054d9f0"
-          - tag: "23.05.5"
+          - tag: "24.10.0"
             pkgarch: arm_cortex-a7_neon-vfpv4
             target: ipq40xx
             subtarget: mikrotik
